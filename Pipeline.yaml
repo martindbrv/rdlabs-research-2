@@ -3,7 +3,7 @@ kind: Pipeline
 metadata:
   name: basic-pipe
   annotations:
-    pipelinesascode.tekton.dev/task: "./Task.yaml"
+    pipelinesascode.tekton.dev/task: "Task.yaml"
 spec:
   tasks:
     - name: echo
