@@ -2,8 +2,8 @@ apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
   name: basic-pipe
-    #annotations:
-    #pipelinesascode.tekton.dev/task: "Task.yaml"
+  annotations:
+    pipelinesascode.tekton.dev/task: "Task.yaml"
 spec:
   tasks:
     - name: echo
