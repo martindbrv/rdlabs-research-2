@@ -1,0 +1,10 @@
+apiVersion: tekton.dev/v1beta1
+kind: Pipeline
+metadata:
+  name: basic-pipe
+spec:
+  tasks:
+    - name: echo
+      taskRef:
+        name: success
+    
